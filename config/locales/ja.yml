@@ -41,3 +41,5 @@ ja:
     create: 新規作成しました
     update: 更新しました
     destroy: 削除しました
+  form:
+    errors: 件のエラーが発生しました
