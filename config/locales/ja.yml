@@ -1,0 +1,43 @@
+ja:
+  activerecord:
+    errors:
+      models:
+        book:
+          attributes:
+            title:
+              blank: "は必須入力項目です"
+    models:
+      book: "ユーザー"
+    attributes:
+      book:
+        books: 本の一覧
+        title: タイトル
+        memo: メモ
+        author: 著者
+        picture: 画像
+  helpers:
+    submit: 
+      create: 登録
+      update: 更新
+      submit: 保存
+  index:
+    books: 本の一覧
+    title: タイトル
+    memo: メモ
+    author: 著者
+    picture: 画像
+  new:
+    new_book: 新しい本の登録
+  edit:
+    editing_book: 入力内容編集     
+  button:
+    edit: 編集
+    back: 戻る
+    show: 詳細
+    destroy: 削除
+    destroy_message: 本当によろしいですか？
+    new_book: 新規作成
+  respond:
+    create: 新規作成しました
+    update: 更新しました
+    destroy: 削除しました
